@@ -1,6 +1,7 @@
 import fresh_tomatoes
 import media
 
+# Create instances of Move class
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
                         "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
@@ -25,10 +26,9 @@ inception = media.Movie("Inception",
                         "A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
                         "http://www.impawards.com/2010/posters/inception.jpg",
                         "https://www.youtube.com/watch?v=YoHD9XEInc0")
-movies = [toy_story, avatar, arrival, interstellar, inception]
-fresh_tomatoes.open_movies_page(movies)
 
-# print toy_story.storyline
-# avatar.show_trailer()
-# toy_story.show_trailer()
-# print avatar.storyline
+# store instances in a list
+movies = [toy_story, avatar, arrival, interstellar, inception]
+
+# run fresh_tomatoes open_movies_page method passing in the list of Movie objects
+fresh_tomatoes.open_movies_page(movies)
