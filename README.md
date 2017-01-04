@@ -11,7 +11,7 @@ Install
 
 Generate New HTML File
 ----------------------
-1. Run `python entertainment_center.py`
+1. Run `python entertainment_center.py` in terminal
 2. Output located in `fresh_tomatoes.html`
 
 ### License
