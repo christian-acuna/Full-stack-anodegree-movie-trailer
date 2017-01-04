@@ -9,6 +9,11 @@ Install
 3. cd into folder and run create a SimpleHTTPServer `python -m SimpleHTTPServer 8080`
 4. Visit [http://0.0.0.0:8080/fresh_tomatoes.html](http://0.0.0.0:8080/fresh_tomatoes.html)
 
+Generate New HTML File
+----------------------
+1. Run `python entertainment_center.py`
+2. Output located in `fresh_tomatoes.html`
+
 ### License
 
 This game is released under the [MIT License](http://www.opensource.org/licenses/MIT).
